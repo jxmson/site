@@ -1,0 +1,78 @@
+    @font-face {
+    font-family: 'Sofia Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sofia Pro Regular'), url('fonts/sofia-pro-cufonfonts-webfont/Sofia Pro Regular Az.woff') format('woff');
+    }
+  @font-face {
+    font-family: 'Sofia Pro ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sofia Pro ExtraLight'), url('fonts/sofia-pro-cufonfonts-webfont/Sofia Pro ExtraLight Az.woff') format('woff');
+    }  
+	
+#Navigation{position:fixed; top:0;}
+#AboutContent{margin-top:73px}
+.font{ font-family:Sofia Pro Regular; font-size:15px; color:#666666}
+#Brand{font-size:2em; font-weight:900;color:#87CEFA;}
+#NavList{font-weight:800;}
+#JumboText{font-weight:900; padding-top:145px; }
+#JumboPic{width:5px; margin-top:80px; margin-left:50px;}
+#NavBar a{color:#87CEFA}
+#Header, #Navigation {background-color:#f0f0f0; z-index:5;}
+#Header a:hover, #Navigation a:hover{color:white;}
+#Header a:active, #Navigation a:active{color:white;}
+#pics{margin-top:80px;}
+.dot{color:#87CEFA}
+.challenges{background-color:#f0f0f0; width:300px; margin:0 auto;}
+.blackdot{color:#000000}
+.word{font-size:2em; font-weight:900;}
+#top{font-size:1em; font-weight:900; color:black;}
+#carddiv{margin: 0 auto;}
+.icon{color:#FFFFFF;}
+.blackground{background-color:#000000}
+.button button:hover {color:#f0f0f0}
+#About{margin-top: 80px; margin-bottom: 80px; text-align:justify;}
+#Skills, #Portfolio, #CodingChallenges{padding-top: 30px; padding-bottom: 30px}
+#codeposition{margin: 0 auto;}
+.code{background-color:#f8f8f8;}
+#div1{position: relative; margin-left:3px; margin-bottom: 90px;}
+.button{display:inline-block;}
+.form-group input, .form-group textarea, .form-email input{box-shadow: 0px 0px 10px #b0b0b0; width:400px; border-radius:2px; padding:5px; border:1px solid #FFFFFF}
+button[type="submit"]:hover{background-color:#b0b0b0}
+.fontweight{font-weight:500}
+#status{margin: 10px auto; border-radius:2px; width:20%; padding:5px;}
+#status.success{background-color:#03ac13; animation:status 4s ease forwards}
+#status.error{background-color:red; animation:status 4s ease forwards}
+#Portfolio a, #CodingChallenges a, #Skills h4{color:#87CEFA; font-size:1em; font-weight:700}
+#Portfolio a:hover, #SideBar a:hover, #CodingChallenges a:hover, #Footer a:hover, #Header a:hover{text-decoration:none; color:#d3d3d3;}
+#Footer a{color:#000000;}
+#Footer{background-color:#f0f0f0;padding-top: 10px; padding-bottom:20px; font-family:Sofia Pro Regular}
+#CodingChallenges a{text-align:center;}
+#SideBar{padding:25px; background-color:#f8f8f8; position:relative}
+#SideBar a{color:#87CEFA;}
+.blueground{background-color:#87CEFA;}
+.footer{font-size:0.8em; font-weight:500;padding:20px;}
+#Footer ul{list-style-type:none;}
+#SideBar ul{text-align:center; padding: 0 20px; font-weight:500; font-size:1em; list-style-type: none;}
+#footericon i{padding-right:9px; font-size:1.5em;}
+#footericon a{color:#000000; text-align:center;}
+#footericon {padding-top:20px; padding-bottom: 20px; padding-left:50px;}
+.footerlist{display:inline;}
+.navbar-nav .active a {color: #000000;}
+#what, #why{max-width:350px; text-align:justify;}
+.skill{margin-top:60px;}
+.iconfont{font-size:0.5em}
+#references {padding-right:50px;}
+
+
+@media screen and (maxwidth:800px){
+#illustration svg{display:none;}}
+
+@keyframes status{
+	0%{opacity: 1; pointer-events: all;}
+	50%{opacity: 1; pointer-events:all;}
+	100%{opacity: 0; pointer-events: none;}
+}
+
+	
