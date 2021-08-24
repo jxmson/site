@@ -64,10 +64,9 @@ button[type="submit"]:hover{background-color:#b0b0b0}
 .skill{margin-top:60px;}
 .iconfont{font-size:0.5em}
 #references {padding-right:50px;}
+#Portfolio img{width:400px; height: 300px}
+#Portfolio div {padding-bottom: 40px;}
 
-
-@media screen and (maxwidth:800px){
-#illustration svg{display:none;}}
 
 @keyframes status{
 	0%{opacity: 1; pointer-events: all;}
