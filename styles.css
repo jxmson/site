@@ -23,12 +23,12 @@ body ul{list-style-type:none}
 #Header, #Navigation {background-color:#f0f0f0; z-index:5;}
 #Header a:hover, #Navigation a:hover{color:white;}
 #Header a:active, #Navigation a:active{color:white;}
-#pics{margin-top:80px;}
+#pics{margin-top:100px;}
 .dot{color:#87CEFA}
 .challenges{background-color:#f0f0f0; width:300px; margin:0 auto;}
 .blackdot{color:#000000}
 .word{font-size:2em; font-weight:900;}
-#top{font-size:1em; font-weight:900; color:black;}
+#top{font-size:1.5em; font-weight:900; color:black;}
 #carddiv{margin: 0 auto;}
 .icon{color:#FFFFFF;}
 .blackground{background-color:#000000}
@@ -45,21 +45,11 @@ button[type="submit"]:hover{background-color:#b0b0b0}
 #status{margin: 10px auto; border-radius:2px; width:20%; padding:5px;}
 #status.success{background-color:#03ac13; animation:status 4s ease forwards}
 #status.error{background-color:red; animation:status 4s ease forwards}
-#Portfolio a, #CodingChallenges a, #Skills h4{color:#87CEFA; font-size:1em; font-weight:700}
+#Skills h4, #Portfolio h4{color:#87CEFA; font-size:1em; font-weight:700}
 #Portfolio a:hover, #SideBar a:hover, #CodingChallenges a:hover, #Footer a:hover, #Header a:hover{text-decoration:none; color:#d3d3d3;}
 #Footer a{color:#000000;}
-#Footer{background-color:#f0f0f0;padding-top: 10px; padding-bottom:20px; font-family:Sofia Pro Regular}
-#CodingChallenges a{text-align:center;}
-#SideBar{padding:25px; background-color:#f8f8f8; position:relative}
-#SideBar a{color:#87CEFA;}
+#Footer{background-color:#f0f0f0;padding-top: 25px; padding-bottom:20px; font-family:Sofia Pro Regular}
 .blueground{background-color:#87CEFA;}
-.footer{font-size:0.8em; font-weight:500;padding:20px;}
-#Footer ul{list-style-type:none;}
-#SideBar ul{text-align:center; padding: 0 20px; font-weight:500; font-size:1em; list-style-type: none;}
-#footericon i{padding-right:9px; font-size:1.5em;}
-#footericon a{color:#000000; text-align:center;}
-#footericon {padding-top:20px; padding-bottom: 20px; padding-left:50px;}
-.footerlist{display:inline;}
 .navbar-nav .active a {color: #000000;}
 #what, #why{max-width:350px; text-align:justify;}
 .skill{margin-top:60px;}
@@ -68,6 +58,33 @@ button[type="submit"]:hover{background-color:#b0b0b0}
 .border{border: 1px solid black}	
 #Portfolio li div.front, #Portfolio li div.back{width: 350px; height: 300px;}	
 #Portfolio li img{max-width:100%; height:300px}
+#Portfolio{display: flex; 
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			padding: 40px 0;	
+}
+#Portfolio .card { position: relative;
+					width: 300px;
+					height: 260px;
+					box-shadow: 0px 10px 20px #000000);
+					border-radius: 20px;
+					margin: 20px;
+					background-color: #f0f0f0}
+
+#Portfolio .card .box{margin: 25px 20px;
+					display: flex;
+
+					}
+#Portfolio .card .box .git{ float:right;
+							margin-top: 5px;
+						font-size: 20px}
+
+#Portfolio .card .box .content {text-align: justify}
+#Portfolio a, #Portfolio a:hover{color: #000000}
+#Portfolio a:hover .card{background-color: #d3d3d3}
+					
+
 .font{font-size:15px;}
 .front{
 	background-color: white;

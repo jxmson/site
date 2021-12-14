@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -38,7 +39,7 @@
 							<a href="#Portfolio" class="nav-link">Portfolio</a>
 						</li>
 						<li class="nav-item">
-							<a href="contact.html" class="nav-link">Contact</a>
+							<a href="mailto:jimsonn2020@gmail.com" class="nav-link">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -50,10 +51,7 @@
 					<h2>Front and Back end Developer </h2>
 					<div style="margin-top:40px;">
 						<form class="button" action="#About">
-							 <button style="width:6em; background-color:#87CEFA; font-weight:500;" class="btn" type="submit">About</button>
-						 </form>
-						<form class="button" action="contact.html">
-							 <button style="width:6em; background-color:#dcdcdc; font-weight:500;" class="btn" type="submit">Contact</button>
+							 <button style="; background-color:#87CEFA; font-weight:500;" class="btn" type="submit"><i class="fa fa-envelope"></i> <span class="small">Say hello</span></button>
 						 </form>
 					</div>
 			</div>
@@ -139,98 +137,93 @@
 					</div>
 								
 		</div>
-		<div id= "Portfolio" class="container text-center">
+		<div class="container">
 			<p class="word text-center">My Projects<span class="dot">.</span></p>
-			<div class="row center">
-				<ul class="col-sm-12 col-md-6 col-lg-4">
-					
-					<li>
-						<div class ="front">
-								<h2><a href="https://github.com/jxmson/StudentLoanApplication">Student Loan App</a></h2>
-								<p><strong>Web application</strong></p>
-								<p>ASP.NET, C#, HTML/CSS</p>
-							
-							<p  class="small font">
-									This application allows for CRUD functionality and utilises an appropriate design pattern for object-oriented programming. Users can register or log in and an applicant user can submit an online application. An admin user is allowed to add, edit and delete a university, view a summary list of all applications, as well as view and delete a submitted application.								
-							</p>
-						</div>
-					</li>
-					<li><div class ="back border">
-						<img src="images/stla.png" alt="STLA screenshot"/>
-						</div>
-					</li>
-				</ul>
-				<ul class="col-sm-12 col-md-6 col-lg-4">
-					<li><div class="front">				
+			<div id= "Portfolio">
+				<a href="https://github.com/jxmson/StudentLoanApplication">
+					<div class="card">
+						<div class="box">
+							<div>
+									<i class="material-icons" style=" font-size:36px">folder_open</i>
+									
+									<i class="git fa fa-github"></i>
 								
-								<h2><a href="https://github.com/jxmson/Esylife-Member-Repository">Esylife Lesotho</a></h2>
-								<p><strong>Member Repository</strong></p>
-								<p>C#, SQL</p>
-						
-						<p class="font small">  Developed for Esylife Lesotho and is currently being expanded to include Point-Of-Sale services. This is a CRUD repository application that stores all the companys member information and the assigned member identification number. A user is allowed to add a member and their assigned identification number as well as edit and delete a selected member. A user can also search for a specific user by selecting a category in which they would like to provide a keyword; either by Name, Surname or Identiication number.</p>
-						
-					</div></li>
-					<li><div class = "back border">
-						<img src="images/esylife.png" alt="Esylife screenshot"/>
-					</div></li>	
-				</ul>
-				<ul class="col-sm-12 col-md-6 col-lg-4">
-					
-							<li><div class="front">	
-								<h2><a href="https://github.com/jxmson/TRex-Runner-Game">T-Rex Endless Runner Game</a></h2>
-								<p><strong> Game</strong></p>
-								<p>C#</p>
-							
-							<p  class="font small">
-									This application creates jump simulation using force and gravity while animating object using a timer and picture boxes. The game keeps score for the user and handles collision between the users T-Rex and the obstacles, which triggers a game reset function.
-							</p>
+								<h4 href="#">Student Loan App</h4>
+
+								<div class="content">
+									<p class="small font"> Users can register or log in and an applicant user can submit an online application. An admin user is allowed to add, edit and delete a university, view a summary list of all applications, as well as view and delete a submitted application.</p>
+								</div>
+								<p class="small"><strong> ASP.NET, C#, HTML/CSS</strong></p>
 							</div>
-							</li>
-							<li>
-						<div class="back border"><img src="images/trex.png" alt="T-Rex game"/>
+						</div>			
+					</div>
+				</a>
+				<a href="https://github.com/jxmson/TRex-Runner-Game">
+					<div class="card">
+						<div class="box">
+							<div>
+								<i class="material-icons" style=" font-size:36px">folder_open</i>
+									
+								<i class="git fa fa-github"></i>
+								<h4 href="#">T-Rex Endless Runner Game</h4>
+
+								<div class="content">
+									<p class="small font"> Inspired by the popular Google Chrome T-Rex game. The game keeps score for the user and handles collision between the users T-Rex and the obstacles, which triggers a game reset function.</p>
+								</div>
+								<p><strong>C#</strong></p>
+							</div>
+						</div>			
+					</div>
+				</a>
+				<a href = "https://github.com/jxmson/Esylife-Member-Repository">
+					<div class="card">
+						<div class="box">
+							<div>
+								<i class="material-icons" style=" font-size:36px">folder_open</i>
+									
+								<i class="git fa fa-github"></i>
+								<h4 href="#">Esylife Lesotho Member Repository</h4>
+
+								<div class="content">
+									<p class="small font"> Currently expanding to include Point of Sale functionalities for Esylife Lesotho. This application stores all the companys member information and the assigned member identification number.</p>
+								</div>
+								<p><strong> C#, SQL</strong></p>
+							</div>
+						</div>			
+					</div>
+				</a>
+				<a href="https://github.com/jxmson/SnakesGame">
+					<div class="card">
+					<div class="box">
+						<div>
+							<i class="material-icons" style=" font-size:36px">folder_open</i>
+								
+							<i class="git fa fa-github"></i>
+							<h4 href="#">Snake Game</h4>
+
+							<div class="content">
+								<p class="small font"> Inspired by the popular snake game. The user controls the direction of the snake's movement and it grows as it collides (eats) the piece of food.</p>
+							</div>
+							<p><strong> C#</strong></p>
 						</div>
-					</li>
-				</ul>
+					</div>			
+				</div>
+				
+				</a>
+				
+			</div>
+			<div class="container text-right">
+				<a id="top" href="#Header" >&#11165 </a>
 			</div>
 			
 		</div> 
 		
 		
-		<div class="container text-right">
-			<a id="top" href="#Header" >back to top &#11165 </a>
-		</div>
+		
 		
 	</body>
 	<footer id="Footer">
-			<div class= "footer row">
-				<div class="col-sm-4 row text-center">
-				
-						<ul class="footerlist col">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="#About">About</a></li>
-							<li><a href="About.html">More about me</a></li>
-						</ul>
-					
-					
-						<ul class="footerlist col">
-							<li><a href="#Skills">Services</a></li>
-							<li><a href="#Portfolio">Portfolio</a></li>
-							<li><a href="Contact.html">Contact</a></li>
-						</ul>
-					
-				</div>
-				<div id="footericon" class="col-sm-4" align="center">
-					<a href="https://www.linkedin.com/in/nthabeleng-jimson-2046421b5/"><i class="fa fa-linkedin"></i></a>
-					<a href="https://www.twitter.com/jxmson"><i class="fa fa-twitter"></i></a>
-					<a href="https://github.com/jxmson"><i class="fa fa-github"></i></a>
-					<br />
-				</div>
-				<div class="col-sm-4 text-center" style="">			
-					<p>Email: <a href="mailto:jimsonn2020@gmail.com">jimsonn2020@gmail.com</a></p>
-					<p>Copyright &copy Nthabeleng Jimson 2021</p>
-				</div>
-							
-			</div>
+			
 				<div id="references" class="iconfont text-center">
 						
 						<ul>
