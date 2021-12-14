@@ -24,7 +24,7 @@ body ul{list-style-type:none}
 #Header a:hover, #Navigation a:hover{color:white;}
 #Header a:active, #Navigation a:active{color:white;}
 #Header{background-image: url('images/Untitled-5.png');
-		background-repeat: no-repeat;
+		background-repeat: no-repea;
 		background-position: bottom}
 #pics{margin-top:100px;}
 .dot{color:#87CEFA}
