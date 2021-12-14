@@ -23,6 +23,9 @@ body ul{list-style-type:none}
 #Header, #Navigation {background-color:#f0f0f0; z-index:5;}
 #Header a:hover, #Navigation a:hover{color:white;}
 #Header a:active, #Navigation a:active{color:white;}
+#Header{background-image: url('images/Untitled-5.png');
+		background-repeat: no-repeat;
+		background-position: bottom}
 #pics{margin-top:100px;}
 .dot{color:#87CEFA}
 .challenges{background-color:#f0f0f0; width:300px; margin:0 auto;}
@@ -83,7 +86,7 @@ button[type="submit"]:hover{background-color:#b0b0b0}
 #Portfolio .card .box .content {text-align: justify}
 #Portfolio a, #Portfolio a:hover{color: #000000}
 #Portfolio a:hover .card{background-color: #d3d3d3}
-					
+		
 
 .font{font-size:15px;}
 .front{
@@ -97,4 +100,18 @@ button[type="submit"]:hover{background-color:#b0b0b0}
 	opacity: 1;	
 }
 .center{margin-top:60px;}
+.fadeIn{
+	animation: fadeIn 0.95s;
+}
+
+@keyframes fadeIn {
+	from{
+		opacity: 0;
+		tranform: rotateY(-10deg)
+	}
+	to{
+		opacity: 1;
+		tranform: rotateY(0deg)
+	}
+}
 	
