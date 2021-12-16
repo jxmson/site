@@ -15,6 +15,7 @@ body ul{list-style-type:none}
 #Navigation{position:fixed; top:0;}
 #AboutContent{margin-top:73px}
 .font{ font-family:Sofia Pro Regular; color:#666666}
+.font2{ font-family:Sofia Pro Regular;}
 #Brand{font-size:2em; font-weight:900;color:#87CEFA;}
 #NavList{font-weight:800;}
 #JumboText{font-weight:900; padding-top:110px; }
