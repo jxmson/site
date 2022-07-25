@@ -2,14 +2,14 @@
     font-family: 'Sofia Pro Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Sofia Pro Regular'), url('fonts/Sofia/sofia-pro-cufonfonts-webfont/sofia Pro Regular Az.woff') format('woff');
+    src: local('Sofia Pro Regular'), url('./fonts/Sofia/sofia-pro-cufonfonts-webfont/sofia Pro Regular Az.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Rekina';
     font-style: normal;
     font-weight: 900;
-    src: local('Rekina'), url('fonts/Rekina/ReiknaRegular-Yzwaj.ttf') format('truetype');
+    src: local('Rekina'), url('./fonts/Rekina/ReiknaRegular-Yzwaj.ttf') format('truetype');
 }
 
 body {overflow-x: hidden;}
