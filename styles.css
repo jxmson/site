@@ -337,6 +337,22 @@ body {overflow-x: hidden;}
     padding-left:10px;
 }
 
+#Certificates {
+    margin-top:50px;
+    text-align: center;
+}
+#Certificates img {
+    border: 1px black solid;
+    margin-top: 10px;
+}
+
+#Certificates_container {
+    margin-top: 20px;
+}
+#Certificates_container h6 {
+    font-weight: 700;
+    margin-top: 30px;
+}
 /*Portfolio*/
 #Portfolio {
     margin-top: 50px;
